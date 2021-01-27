@@ -1,0 +1,59 @@
+{
+  "name": "teste1",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint",
+    "watch": "npm-watch"
+  },
+  "watch": {
+    "build": {
+      "patterns": [
+        "src"
+      ],
+      "extensions": "js,jsx"
+    }
+  },
+  "resolutions": {
+    "eslint-loader": "2.1.2"
+  },
+  "dependencies": {
+    "@tailwindcss/forms": "^0.2.1",
+    "@tailwindcss/postcss7-compat": "^2.0.2",
+    "animate": "^1.0.0",
+    "autoprefixer": "^9.8.6",
+    "axios": "^0.21.1",
+    "core-js": "^3.6.5",
+    "lodash": "^4.17.20",
+    "node-sass": "^4.14.1",
+    "npm-watch": "^0.7.0",
+    "nprogress": "^0.2.0",
+    "postcss": "^7.0.35",
+    "sass-loader": "^10.1.0",
+    "tailwind-forms": "^1.0.6",
+    "tailwindcss": "npm:@tailwindcss/postcss7-compat@^2.0.2",
+    "velocity": "^0.7.2",
+    "velocity-animate": "^1.5.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vuelidate": "^0.7.6",
+    "vuex": "^3.6.0"
+  },
+  "devDependencies": {
+    "@tailwindcss/custom-forms": "^0.2.1",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint": "^6.7.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-vue": "^6.2.2",
+    "prettier": "^1.19.1",
+    "vue-template-compiler": "^2.6.11",
+    "vuedraggable": "^2.24.3"
+  }
+}
