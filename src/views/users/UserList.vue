@@ -25,7 +25,7 @@
 </template>
 
 <script>
-import UserCard from '@/components/UserCard.vue'
+import UserCard from '@/components/user/UserCard.vue'
 import { mapState } from 'vuex'
 import store from '@/store'
 

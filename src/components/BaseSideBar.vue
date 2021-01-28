@@ -112,7 +112,7 @@
 </template>
 
 <script>
-import CategorieList from '@/components/CategorieList.vue'
+import CategorieList from '@/components/user/CategorieList.vue'
 import Logo from '@/components/Logo.vue'
 import ProfileCard from '@/components/ProfileCard.vue'
 import Velocity from 'velocity-animate'

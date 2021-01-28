@@ -11,6 +11,7 @@ import SigIn from '@/views/users/SigIn.vue';
 import CreateUser from '@/views/users/CreateUser.vue';
 import DragSimpleTabble from '@/views/draggable/DragSimpleTabble.vue';
 import DragTwoTable from '@/views/draggable/DragTwoTable.vue';
+import DragInsideTable from '@/views/draggable/DragInsideTable.vue';
 //import CreateUserNonlogin from '@/views/users/CreateUserNonlogin.vue';
 
 Vue.use(VueRouter);
@@ -19,6 +20,11 @@ const routes = [
   {
     path: "/",
     name: "Home",
+    component: DragInsideTable
+  },
+  {
+    path: "/dragtwotabble",
+    name: "drag-two-tabble",
     component: DragTwoTable
   },
   {
