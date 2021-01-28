@@ -107,52 +107,7 @@
       "stateP": "zzz",
       "postalCode": "zzz",
       "order": 9
-    },
-    {
-      "id": 3382224,
-      "userName": "rrrr",
-      "email": "rrrr@hotmail.com",
-      "password": "rrrr",
-      "country": "México",
-      "streetAddress": "rrr",
-      "city": "rrrr",
-      "stateP": "rrr",
-      "postalCode": "rrrr",
-      "order": 10
-    },
-    {
-      "id": 6728888,
-      "userName": "1111",
-      "email": "1111@hotmail.com",
-      "password": "1111",
-      "country": "México",
-      "streetAddress": "1111",
-      "city": "11111",
-      "stateP": "111",
-      "postalCode": "11111",
-      "order": 11
-    },
-    {
-      "id": 6536538,
-      "userName": "maikon",
-      "email": "maikon@ufrrrrr",
-      "password": "1234556",
-      "country": "England",
-      "streetAddress": "columbus street",
-      "city": "oreon",
-      "stateP": "new england",
-      "postalCode": "13333"
-    },
-    {
-      "id": 9951002,
-      "userName": "FDFS",
-      "email": "DFFDF@DSFDSFDS",
-      "password": "FSDFS",
-      "country": "Canada",
-      "streetAddress": "FSDFS",
-      "city": "SDFSDF",
-      "stateP": "FSDFS",
-      "postalCode": "SDFSDF"
     }
+    
   ]
 }

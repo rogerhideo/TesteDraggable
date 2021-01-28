@@ -12,7 +12,7 @@ import CreateUser from '@/views/users/CreateUser.vue';
 import DragSimpleTabble from '@/views/draggable/DragSimpleTabble.vue';
 import DragTwoTable from '@/views/draggable/DragTwoTable.vue';
 import DragInsideTable from '@/views/draggable/DragInsideTable.vue';
-//import CreateUserNonlogin from '@/views/users/CreateUserNonlogin.vue';
+import CreateUserNonlogin from '@/views/users/CreateUserNonlogin.vue';
 
 Vue.use(VueRouter);
 
@@ -37,11 +37,11 @@ const routes = [
     name: 'sig-in',
     component: SigIn,
   },
-  //{
-  //  path: '/createusernonlogin',
-  //  name: 'create-user-nonlogin',
-  //  component: CreateUserNonlogin,
-  //},
+  {
+    path: '/createusernonlogin',
+    name: 'create-user-nonlogin',
+    component: CreateUserNonlogin
+  },
   //{
   // path: "/dashboard",
   //name: "DashBoard",
